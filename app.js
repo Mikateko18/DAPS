@@ -159,7 +159,7 @@ app.post("/Login.html", function(req, res) {
 
  if (foundUser.status != "Active" && foundUser.email === email && foundUser.password === password) {
 
-      res.sendFile(__dirname + "/notVerified.html");
+      res.sendFile(__dirname + "/failureLogin.html");
 
  }
  else {
