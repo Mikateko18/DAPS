@@ -115,7 +115,7 @@ mailOptions = {
  from:"Mikateko",
  to: email,
  subject: 'Email confirmation',
-   html:`Press <a href=www.dapsvizportal.site/verify.html/${uniqueString}>here </a> to verify your email. ``
+   html:`Press <a href=www.dapsvizportal.site/verify.html/${uniqueString}>here </a> to verify your email. `
 
 };
 
