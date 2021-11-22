@@ -107,7 +107,7 @@ const sendMail = (email, uniqueString) => {
     service: 'gmail',
 auth: {
 user: 'nonreply18@gmail.com',
-pass: 'Ilovemymom*77',
+pass: 'Thursday*123',
 }
 });
 var mailOptions;
